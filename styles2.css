@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F0FAFE; /* more pale blue background */
+    margin: 0 170px 0 170px;
+}
+
+header {
+    background-color: #F0FAFE;
+    border-bottom: 2px solid #cccccc;
+    margin-top: 20px;
+    color: #055abb; /* blueish text color */
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-image{
+    width: 100px;
+}
+
+.course-name h1{
+    float: right;
+}
+
+.course-buttons{
+    padding: 0 0 0 10px;
+}
+
+.course-buttons button{
+    font-size: medium;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #055abb;
+    border: none;
+    color: whitesmoke;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #055abb;
+    text-decoration: none;
+}
+
+
+.section {
+    background-color: #F0FAFE;
+    padding: 10px;
+}
+
+.persons{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.figcaption{
+    text-align: center;
+}
+
+.persons{
+    display: flex;
+    margin: auto;
+}
+
+
+.insphoto{
+    text-align: center;
+    background-color: #F0FAFE;
+    margin: auto;
+    width: 200px;
+}
+
+.insphoto img{
+    width: 100px;
+    border: 1px solid #cccccc;
+    padding: 5px;
+
+} 
+
+
+.section h2 {
+    margin-top: 0;
+    color: #055abb; /* blueish text color */
+}
+
+.section h3 {
+    margin-top: 30px;
+    color: #055abb; 
+}
+
+.line{
+    border: none;
+    border-bottom: 1px solid #cccccc;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    background-color:  #F5F5F5; /* Gray background color */
+}
+
+th, td {
+    border-bottom: 1px solid black;
+    padding: 10px; /* Optional: add padding to cells for better readability */
+}
+
+td:first-child {
+    text-align: center; /* Align text in the first column of each row to center */
+    width: 10%;
+}
+
+td:nth-child(2) {
+    text-align: center; /* Align text in the first column of each row to center */
+    width: 20%;
+}
+
+tr:first-child{
+    border-top: 2px solid black; /* Black border for the last row */
+}
+
+tr:last-child{
+    border-bottom: 2px solid black; /* Black border for the last row */
+}
+
+.special{
+    text-indent: 28.6%;
+}
+
+.course-content{
+    padding-bottom: 50px;
+}
+
+.course-content a{
+    color: #033b7b;
+    font-weight: bold;
+}
+
+.course-content a:link{
+    text-decoration: none;
+}
+
+.course-content a:hover{
+    color: #055abb; 
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+/* #1565c0 prev. colour */
+
